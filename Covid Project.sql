@@ -71,7 +71,7 @@ and a.date = b.date
 where a.continent is not null
 order by 2,3
 
--- Using CTS Approach
+-- Using CTE Approach
 with populatioVac (continent, Location, date, population, new_vaccination, rollingvaccinated)
 as
 (
